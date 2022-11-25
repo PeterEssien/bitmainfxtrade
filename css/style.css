@@ -1088,6 +1088,8 @@ pre {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
+  .submit-button {
+    margin: 0 auto; }
   .order-lg-first {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
