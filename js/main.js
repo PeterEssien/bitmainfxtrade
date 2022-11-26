@@ -20,6 +20,7 @@
 					email: {
 						required: true,
 						email: true
+						}
 					},
 				
 				messages: {
@@ -32,8 +33,7 @@
 					state: "Please enter a Account Number",
 					nationality: "Please enter a valid Country",
 					routingnumber: "Please enter a Routing Number",
-                                        email: "Please enter a valid email address",
-					subject: "Please enter your subject"
+                                        email: "Please enter a valid email address"
 					
 				
 				},
