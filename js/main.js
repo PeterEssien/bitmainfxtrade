@@ -9,21 +9,23 @@
 			$( "#contactForm" ).validate( {
 				rules: {
 					name: "required",
-					subject: "required",
+                                        address: "required",
+                                        phonenumber: "required",
+                                        gender: "required",
 					email: {
 						required: true,
 						email: true
 					},
-					message: {
-						required: true,
-						minlength: 5
-					}
-				},
+				
 				messages: {
 					name: "Please enter your name",
+                                        address: "Please enter your Home Address",
+                                        phonenumber: "Please enter your Phone Number",
+                                        gender: "Please provide your Gender",
+
 					subject: "Please enter your subject",
 					email: "Please enter a valid email address",
-					message: "Please enter a message"
+				
 				},
 				/* submit via ajax */
 				
