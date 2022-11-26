@@ -12,6 +12,11 @@
                                         address: "required",
                                         phonenumber: "required",
                                         gender: "required",
+					bankname: "required",
+                                        accountnumber: "required",
+                                        state: "required",
+					nationality: "required",
+                                        routingnumber: "required",
 					email: {
 						required: true,
 						email: true
@@ -22,9 +27,14 @@
                                         address: "Please enter your Home Address",
                                         phonenumber: "Please enter your Phone Number",
                                         gender: "Please provide your Gender",
-
-					subject: "Please enter your subject",
-					email: "Please enter a valid email address",
+					bankname: "Please enter a valid Bank",
+					accountnumber: "Please enter a Account Number",
+					state: "Please enter a Account Number",
+					nationality: "Please enter a valid Country",
+					routingnumber: "Please enter a Routing Number",
+                                        email: "Please enter a valid email address",
+					subject: "Please enter your subject"
+					
 				
 				},
 				/* submit via ajax */
