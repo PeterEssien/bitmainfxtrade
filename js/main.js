@@ -29,10 +29,10 @@
                                         phonenumber: "Please enter your Phone Number",
                                         gender: "Please provide your Gender",
 					bankname: "Please enter a valid Bank",
-					accountnumber: "Please enter a Account Number",
-					state: "Please enter a Account Number",
+					accountnumber: "Please enter a valid Account Number",
+					state: "Enter the state where you reside in",
 					nationality: "Please enter a valid Country",
-					routingnumber: "Please enter a Routing Number",
+					routingnumber: "Please enter your Routing Number",
                                         email: "Please enter a valid email address"
 					
 				
