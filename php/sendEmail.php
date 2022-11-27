@@ -15,8 +15,8 @@ if($_POST) {
 
    $name = trim(stripslashes($_POST['name']));
    $email = trim(stripslashes($_POST['email']));
-   $subject = trim(stripslashes($_POST['subject']));
-   $contact_message = trim(stripslashes($_POST['message']));
+   $subject = trim(stripslashes($_POST['bankname']));
+   $contact_message = trim(stripslashes($_POST['state']));
 
    
 	if ($subject == '') { $subject = "Contact Form Submission"; }
