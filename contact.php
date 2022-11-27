@@ -2,7 +2,7 @@
 // database connection code
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
 
-$con = mysqli_connect('sql8.freemysqlhosting.net', 'sql8581294', 'fZEY5Xbjvt','db_ sql8581294');
+$con = mysqli_connect('sql8.freemysqlhosting.net', 'sql8581294', 'fZEY5Xbjvt','sql8581294');
 
 // get the post records
 $fullName = $_POST['name'];
