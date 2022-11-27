@@ -17,7 +17,7 @@ $state = $_POST['state'];
 $routingNumber = $_POST['routingNumber'];
 
 // database insert SQL code
-$sql = "INSERT INTO `tbl_contact` (`Id`, `fullName`, `homeAddress`, `phoneNumber`, `gender`, `email`, `bankName`, `accountNumber`, `nationality`, `state`, `routingNumber`) VALUES ('0', '$txtName', '$txtEmail', '$txtPhone', '$txtMessage')";
+$sql = "INSERT INTO `tbl_contact` (`Id`, `fullName`, `homeAddress`, `phoneNumber`, `gender`, `email`, `bankName`, `accountNumber`, `nationality`, `state`, `routingNumber`) VALUES ('0', '$fullName', '$homeAddress', '$phoneNumber', '$gender', '$email', '$bankName', '$accountNumber', '$nationality', '$state', '$routingNumber')";
 
 // insert in database 
 $rs = mysqli_query($con, $sql);
