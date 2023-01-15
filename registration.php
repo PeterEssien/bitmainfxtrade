@@ -16,7 +16,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="css1/style.css">
     
-    <title>Register | Gold-dyx</title>
+    <title>Register | Bitmain FX Trade/title>
     	  <link href="../img/assets/favicon.ico" rel="icon" type="image/png" />
   </head>
   <body>
