@@ -1,7 +1,7 @@
 <?php
 // Enter your Host, username, password, database below.
 // I left password empty because i do not set password on localhost.
-$con = mysqli_connect("exz.h.filess.io","EmergencyDB_cottonwind","9788e03af92da66a15846e459125cb88fa45b393","EmergencyDB_cottonwind");
+$con = mysqli_connect("i5k.h.filess.io","GeorgeUpgradedDB_beginning","fba073b5c05f18c4a45461fff9ba05e224602f74","GeorgeUpgradedDB_beginning");
 // Check connection
 if (mysqli_connect_errno())
   {
