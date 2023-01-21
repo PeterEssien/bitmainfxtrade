@@ -48,8 +48,8 @@ VALUES ('$username', '".md5($password)."', '$email', '$trn_date')";
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7">
-            <h3>Register on <strong>Gold-dyx</strong></h3>
-            <p class="mb-4">You need to create an account in order to start investing.</p>
+            <h3>Register on <strong>Bitmain FX Trade</strong></h3>
+            <p class="mb-4">You need to create an account in order to access your withdrawal portal.</p>
             <form action="" method="post" name="registration">
               <div class="form-group first">
                 <label for="username">Full Name</label>
