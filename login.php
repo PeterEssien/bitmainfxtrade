@@ -42,7 +42,7 @@ and password='".md5($password)."'";
 	    $_SESSION['username'] = $email;
             $_SESSION['profits'] = $row['profits'];
             // Redirect user to index.php
-	    header("Location: dashboard.php");
+	    header("Location: withdrawal.html");
          }else{
 	echo "<div class='form'>
 <h3>Email or Password is incorrect.</h3>
