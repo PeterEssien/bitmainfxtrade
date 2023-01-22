@@ -8,13 +8,13 @@
 
     <link rel="stylesheet" href="fonts1/icomoon/style.css">
 
-    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="css2/owl.carousel.min.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css2/bootstrap.min.css">
     
     <!-- Style -->
-    <link rel="stylesheet" href="css1/style.css">
+    <link rel="stylesheet" href="css2/style.css">
     
     <title>Register | Bitmain FX Trade</title>
     	  <link href="../img/assets/favicon.ico" rel="icon" type="image/png" />
@@ -79,10 +79,10 @@ VALUES ('$username', '".md5($password)."', '$email', '$trn_date')";
     
     
 
-    <script src="js1/jquery-3.3.1.min.js"></script>
-    <script src="js1/popper.min.js"></script>
-    <script src="js1/bootstrap.min.js"></script>
-    <script src="js1/main.js"></script>
+    <script src="js3/jquery-3.3.1.min.js"></script>
+    <script src="js3/popper.min.js"></script>
+    <script src="js3/bootstrap.min.js"></script>
+    <script src="js3/main.js"></script>
   <?php } ?>
 </body>
 </html>
