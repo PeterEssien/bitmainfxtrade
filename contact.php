@@ -24,7 +24,7 @@ $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
- echo "Membership form submitted! An email would be sent to you shortly with further details.";
+ echo "Withdrawal application submitted! An email would be sent to you shortly with further details.";
 }
 
 ?>
